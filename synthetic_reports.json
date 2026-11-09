@@ -1,0 +1,14 @@
+[
+  {
+    "source_id": "SYN_REPORT_1",
+    "source_url": "synthetic://report",
+    "text": "Synthetic Player 10 had a fictional planned minutes limit of 30. This is artificial evidence.",
+    "player_id": "10",
+    "team_id": "1",
+    "opponent_id": "2",
+    "season": "2023-24",
+    "published_at": "2023-10-19T12:00:00Z",
+    "retrieved_at": "2023-10-19T12:05:00Z",
+    "available_at": "2023-10-19T12:05:00Z"
+  }
+]

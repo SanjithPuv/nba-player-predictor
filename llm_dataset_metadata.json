@@ -1,0 +1,8 @@
+{
+  "created_at": "2026-11-06T23:22:16.034387+00:00",
+  "training_examples": 79,
+  "evaluation_examples": 80,
+  "synthetic": true,
+  "supervision": "Extractive renderer targets; no human reasoning labels; immutable baseline numerical context",
+  "evaluation_path": "data/llm/evaluation_bundles.json"
+}

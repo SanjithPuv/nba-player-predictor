@@ -1,0 +1,316 @@
+{
+  "forecast": {
+    "player_id": "10",
+    "player_name": "Synthetic Player 10",
+    "game_id": "SYN_NEXT",
+    "expected_points": 26.6197,
+    "median_points": 25.7759,
+    "prediction_intervals": {
+      "65": [
+        18.8778,
+        32.809
+      ],
+      "80": [
+        17.9101,
+        38.0914
+      ],
+      "90": [
+        16.241,
+        38.6608
+      ]
+    },
+    "threshold": 20.5,
+    "probability_exceeding_threshold": 0.748573,
+    "estimated_minutes": 33.5737,
+    "conditional_on_playing": true,
+    "availability_probability": null,
+    "availability_assumptions": [
+      "Player participates; DNP probability is not estimated.",
+      "Current team is inferred from the last available game; verify trades.",
+      "Playing time follows historical role; no verified lineup or injury adjustment."
+    ],
+    "prediction_timestamp": "2026-11-06T23:23:20.607427+00:00",
+    "data_cutoff": "2024-11-03 21:00:00+00:00",
+    "scheduled_tipoff": "2024-11-03 23:00:00+00:00",
+    "model_available_at_simulated": "2024-09-04 23:00:00+00:00",
+    "model_executed_at": "2026-11-06T23:23:19.758330+00:00",
+    "latest_statistics_available_at": "2024-11-02 03:00:00+00:00",
+    "synthetic": true,
+    "missing_information": [
+      "Verified pregame injury status and probability of playing",
+      "Timestamped starting lineup and teammate absences",
+      "Exact travel distance and verified roster/rotation changes",
+      "Historical source revisions and exact tipoff times for date-only logs"
+    ],
+    "model_attributions": {
+      "method": "Additive Ridge contributions relative to training feature means, before nonnegative clipping",
+      "effects": [
+        {
+          "feature": "season_points",
+          "signed_points": 2.2248
+        },
+        {
+          "feature": "prior_season_points",
+          "signed_points": 1.7409
+        },
+        {
+          "feature": "fga_20",
+          "signed_points": 1.7235
+        },
+        {
+          "feature": "minutes_20",
+          "signed_points": 0.9794
+        },
+        {
+          "feature": "points_20",
+          "signed_points": 0.9614
+        }
+      ],
+      "interpretation": "Predictive associations, not causal effects"
+    },
+    "main_factors": {
+      "recent_5_game_points": 26.0,
+      "recent_20_game_minutes": 33.641,
+      "expected_minutes_feature": 33.004,
+      "rest_days": 1.0,
+      "note": "Descriptive model inputs, not causal explanations or formal feature attributions."
+    },
+    "probability_method": "Piecewise-linear CDF through calibrated quantiles; reliability is evaluated, not guaranteed.",
+    "interval_note": "Prediction interval for a played game's points, not parameter confidence or accuracy."
+  },
+  "explanation": {
+    "forecast": {
+      "player_id": "10",
+      "player_name": "Synthetic Player 10",
+      "game_id": "SYN_NEXT",
+      "expected_points": 26.6197,
+      "median_points": 25.7759,
+      "prediction_intervals": {
+        "65": [
+          18.8778,
+          32.809
+        ],
+        "80": [
+          17.9101,
+          38.0914
+        ],
+        "90": [
+          16.241,
+          38.6608
+        ]
+      },
+      "threshold": 20.5,
+      "probability_exceeding_threshold": 0.748573,
+      "estimated_minutes": 33.5737,
+      "conditional_on_playing": true,
+      "availability_probability": null,
+      "availability_assumptions": [
+        "Player participates; DNP probability is not estimated.",
+        "Current team is inferred from the last available game; verify trades.",
+        "Playing time follows historical role; no verified lineup or injury adjustment."
+      ],
+      "prediction_timestamp": "2026-11-06T23:23:20.607427+00:00",
+      "data_cutoff": "2024-11-03 21:00:00+00:00",
+      "scheduled_tipoff": "2024-11-03 23:00:00+00:00",
+      "model_available_at_simulated": "2024-09-04 23:00:00+00:00",
+      "model_executed_at": "2026-11-06T23:23:19.758330+00:00",
+      "latest_statistics_available_at": "2024-11-02 03:00:00+00:00",
+      "synthetic": true,
+      "missing_information": [
+        "Verified pregame injury status and probability of playing",
+        "Timestamped starting lineup and teammate absences",
+        "Exact travel distance and verified roster/rotation changes",
+        "Historical source revisions and exact tipoff times for date-only logs"
+      ],
+      "model_attributions": {
+        "method": "Additive Ridge contributions relative to training feature means, before nonnegative clipping",
+        "effects": [
+          {
+            "feature": "season_points",
+            "signed_points": 2.2248
+          },
+          {
+            "feature": "prior_season_points",
+            "signed_points": 1.7409
+          },
+          {
+            "feature": "fga_20",
+            "signed_points": 1.7235
+          },
+          {
+            "feature": "minutes_20",
+            "signed_points": 0.9794
+          },
+          {
+            "feature": "points_20",
+            "signed_points": 0.9614
+          }
+        ],
+        "interpretation": "Predictive associations, not causal effects"
+      },
+      "main_factors": {
+        "recent_5_game_points": 26.0,
+        "recent_20_game_minutes": 33.641,
+        "expected_minutes_feature": 33.004,
+        "rest_days": 1.0,
+        "note": "Descriptive model inputs, not causal explanations or formal feature attributions."
+      },
+      "probability_method": "Piecewise-linear CDF through calibrated quantiles; reliability is evaluated, not guaranteed.",
+      "interval_note": "Prediction interval for a played game's points, not parameter confidence or accuracy."
+    },
+    "claims": [
+      {
+        "text": "Recorded points 27.0; minutes 32.56717208266916 in game SYN01891.",
+        "source_ids": [
+          "stats:SYN01891:10"
+        ]
+      },
+      {
+        "text": "Recorded points 27.0; minutes 33.054979917011856 in game SYN01881.",
+        "source_ids": [
+          "stats:SYN01881:10"
+        ]
+      },
+      {
+        "text": "Recorded points 32.0; minutes 37.77868782660511 in game SYN01871.",
+        "source_ids": [
+          "stats:SYN01871:10"
+        ]
+      }
+    ],
+    "assumptions": [
+      "Player participates; DNP probability is not estimated.",
+      "Current team is inferred from the last available game; verify trades.",
+      "Playing time follows historical role; no verified lineup or injury adjustment."
+    ],
+    "missing_data": [
+      "Verified pregame injury status and probability of playing",
+      "Timestamped starting lineup and teammate absences",
+      "Exact travel distance and verified roster/rotation changes",
+      "Historical source revisions and exact tipoff times for date-only logs"
+    ],
+    "provider_status": "deterministic offline evidence renderer; no LLM executed"
+  },
+  "evidence": [
+    {
+      "source_id": "stats:SYN01891:10",
+      "source_url": "synthetic://fixture",
+      "published_at": "2024-11-02 03:00:00+00:00",
+      "available_at": "2024-11-02 03:00:00+00:00",
+      "retrieved_at": "2024-11-02 03:00:00+00:00",
+      "timestamp_quality": "synthetic_exact",
+      "kind": "numerical",
+      "text": "Recorded points 27.0; minutes 32.56717208266916 in game SYN01891.",
+      "points": 27.0,
+      "minutes": 32.56717208266916
+    },
+    {
+      "source_id": "stats:SYN01881:10",
+      "source_url": "synthetic://fixture",
+      "published_at": "2024-10-31 03:00:00+00:00",
+      "available_at": "2024-10-31 03:00:00+00:00",
+      "retrieved_at": "2024-10-31 03:00:00+00:00",
+      "timestamp_quality": "synthetic_exact",
+      "kind": "numerical",
+      "text": "Recorded points 27.0; minutes 33.054979917011856 in game SYN01881.",
+      "points": 27.0,
+      "minutes": 33.054979917011856
+    },
+    {
+      "source_id": "stats:SYN01871:10",
+      "source_url": "synthetic://fixture",
+      "published_at": "2024-10-29 03:00:00+00:00",
+      "available_at": "2024-10-29 03:00:00+00:00",
+      "retrieved_at": "2024-10-29 03:00:00+00:00",
+      "timestamp_quality": "synthetic_exact",
+      "kind": "numerical",
+      "text": "Recorded points 32.0; minutes 37.77868782660511 in game SYN01871.",
+      "points": 32.0,
+      "minutes": 37.77868782660511
+    },
+    {
+      "source_id": "stats:SYN01851:10",
+      "source_url": "synthetic://fixture",
+      "published_at": "2024-10-25 03:00:00+00:00",
+      "available_at": "2024-10-25 03:00:00+00:00",
+      "retrieved_at": "2024-10-25 03:00:00+00:00",
+      "timestamp_quality": "synthetic_exact",
+      "kind": "numerical",
+      "text": "Recorded points 24.0; minutes 32.653917937449485 in game SYN01851.",
+      "points": 24.0,
+      "minutes": 32.653917937449485
+    },
+    {
+      "source_id": "stats:SYN01841:10",
+      "source_url": "synthetic://fixture",
+      "published_at": "2024-10-23 03:00:00+00:00",
+      "available_at": "2024-10-23 03:00:00+00:00",
+      "retrieved_at": "2024-10-23 03:00:00+00:00",
+      "timestamp_quality": "synthetic_exact",
+      "kind": "numerical",
+      "text": "Recorded points 20.0; minutes 26.842557041142765 in game SYN01841.",
+      "points": 20.0,
+      "minutes": 26.842557041142765
+    },
+    {
+      "source_id": "stats:SYN01831:10",
+      "source_url": "synthetic://fixture",
+      "published_at": "2024-10-21 03:00:00+00:00",
+      "available_at": "2024-10-21 03:00:00+00:00",
+      "retrieved_at": "2024-10-21 03:00:00+00:00",
+      "timestamp_quality": "synthetic_exact",
+      "kind": "numerical",
+      "text": "Recorded points 28.0; minutes 31.98068076299121 in game SYN01831.",
+      "points": 28.0,
+      "minutes": 31.98068076299121
+    },
+    {
+      "source_id": "stats:SYN01821:10",
+      "source_url": "synthetic://fixture",
+      "published_at": "2024-10-19 03:00:00+00:00",
+      "available_at": "2024-10-19 03:00:00+00:00",
+      "retrieved_at": "2024-10-19 03:00:00+00:00",
+      "timestamp_quality": "synthetic_exact",
+      "kind": "numerical",
+      "text": "Recorded points 33.0; minutes 27.95167825910464 in game SYN01821.",
+      "points": 33.0,
+      "minutes": 27.95167825910464
+    },
+    {
+      "source_id": "stats:SYN01811:10",
+      "source_url": "synthetic://fixture",
+      "published_at": "2024-10-17 03:00:00+00:00",
+      "available_at": "2024-10-17 03:00:00+00:00",
+      "retrieved_at": "2024-10-17 03:00:00+00:00",
+      "timestamp_quality": "synthetic_exact",
+      "kind": "numerical",
+      "text": "Recorded points 26.0; minutes 38.25638652663395 in game SYN01811.",
+      "points": 26.0,
+      "minutes": 38.25638652663395
+    },
+    {
+      "source_id": "stats:SYN01801:10",
+      "source_url": "synthetic://fixture",
+      "published_at": "2024-10-15 03:00:00+00:00",
+      "available_at": "2024-10-15 03:00:00+00:00",
+      "retrieved_at": "2024-10-15 03:00:00+00:00",
+      "timestamp_quality": "synthetic_exact",
+      "kind": "numerical",
+      "text": "Recorded points 25.0; minutes 30.66400110203896 in game SYN01801.",
+      "points": 25.0,
+      "minutes": 30.66400110203896
+    },
+    {
+      "source_id": "stats:SYN01791:10",
+      "source_url": "synthetic://fixture",
+      "published_at": "2024-10-13 03:00:00+00:00",
+      "available_at": "2024-10-13 03:00:00+00:00",
+      "retrieved_at": "2024-10-13 03:00:00+00:00",
+      "timestamp_quality": "synthetic_exact",
+      "kind": "numerical",
+      "text": "Recorded points 25.0; minutes 30.91788406736072 in game SYN01791.",
+      "points": 25.0,
+      "minutes": 30.91788406736072
+    }
+  ]
+}

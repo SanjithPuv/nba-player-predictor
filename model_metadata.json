@@ -1,0 +1,96 @@
+{
+  "selected": "ridge",
+  "validation_mae": {
+    "ridge": 4.524927257709141,
+    "boosted_7": 4.550650875421552,
+    "boosted_15": 4.543271743902987,
+    "minutes_rate": 4.557515887813703,
+    "season_average": 4.654015016912121,
+    "recent_average": 4.801482162935704
+  },
+  "trained_at": "2026-11-06T23:17:59.235702+00:00",
+  "available_at": "2025-12-16 12:00:00+00:00",
+  "calibrated": true,
+  "synthetic": false,
+  "calibrated_at": "2026-11-06T23:18:41.418777+00:00",
+  "calibration_rows": 19240,
+  "fit_available_at": "2025-01-29 12:00:00+00:00",
+  "residual_fit_partition": "chronological_training_tail_only",
+  "features": [
+    "points_5",
+    "points_10",
+    "points_20",
+    "minutes_5",
+    "minutes_10",
+    "minutes_20",
+    "fga_5",
+    "fga_10",
+    "fga_20",
+    "fta_5",
+    "fta_10",
+    "fta_20",
+    "assists_5",
+    "assists_10",
+    "assists_20",
+    "turnovers_5",
+    "turnovers_10",
+    "turnovers_20",
+    "points_ewm",
+    "minutes_ewm",
+    "points_std",
+    "minutes_std",
+    "season_points",
+    "prior_season_points",
+    "rate_20",
+    "efficiency_20",
+    "usage_proxy",
+    "expected_minutes",
+    "home",
+    "rest_days",
+    "back_to_back",
+    "workload_7d",
+    "return_gap",
+    "team_changed",
+    "matchup_points",
+    "matchup_n",
+    "opponent_allowed",
+    "opponent_pace_proxy",
+    "travel_team_change_proxy",
+    "history_n",
+    "role_change_proxy"
+  ],
+  "split_manifest": {
+    "calibration": {
+      "rows": 19830,
+      "games": 928,
+      "start": "2025-01-28 12:00:00+00:00",
+      "end": "2025-12-14 12:00:00+00:00"
+    },
+    "test": {
+      "rows": 20968,
+      "games": 971,
+      "start": "2025-12-15 12:00:00+00:00",
+      "end": "2026-11-05 12:00:00+00:00"
+    },
+    "train": {
+      "rows": 71991,
+      "games": 3420,
+      "start": "2021-10-21 12:00:00+00:00",
+      "end": "2024-03-12 12:00:00+00:00"
+    },
+    "validation": {
+      "rows": 20131,
+      "games": 940,
+      "start": "2024-03-13 12:00:00+00:00",
+      "end": "2025-01-27 12:00:00+00:00"
+    }
+  },
+  "frozen_test_hash": "00212673d0cd6efb632e7c4b376e0e3866bf43d12432135cab249d96042a7d78",
+  "seed": 41,
+  "corrections": {
+    "0.65": 0.0021222332239929447,
+    "0.8": 0.0,
+    "0.9": 0.0
+  },
+  "note": "Available-at is a simulated historical training date; actual execution is trained_at."
+}

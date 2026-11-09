@@ -1,0 +1,9 @@
+{
+  "status": "success",
+  "source_url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-02-18_06_15AM.pdf",
+  "retrieved_at": "2026-11-06T23:17:14.613284+00:00",
+  "published_at_user_supplied": "2026-02-18 11:15:00+00:00",
+  "extracted_characters": 998,
+  "historical_backtest_usage": "excluded: actual retrieval after historical cutoff",
+  "automatic_player_entity_mapping": "not implemented; explicit tagging required"
+}

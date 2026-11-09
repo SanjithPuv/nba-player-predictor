@@ -1,0 +1,12 @@
+{
+  "seasons": ["2021-22", "2022-23", "2023-24", "2024-25", "2025-26", "2026-27"],
+  "cutoff_hours": 2,
+  "request_interval_seconds": 1.5,
+  "request_timeout_seconds": 12,
+  "retries": 2,
+  "seed": 41,
+  "thresholds": [10.5, 20.5, 30.5],
+  "split_fractions": [0.55, 0.15, 0.15, 0.15],
+  "bootstrap_date_blocks": 200,
+  "synthetic": false
+}

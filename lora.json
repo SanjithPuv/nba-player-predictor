@@ -1,0 +1,9 @@
+{
+  "base_model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "revision": "main",
+  "seed": 41,
+  "epochs": 2,
+  "max_length": 4096,
+  "license_reference": "https://huggingface.co/Qwen/Qwen2.5-0.5B-Instruct/blob/main/LICENSE",
+  "note": "Pin revision to a commit for a reproducible training run; resolved commit saved in checkpoint metadata."
+}

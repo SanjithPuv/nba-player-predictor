@@ -1,0 +1,43 @@
+{
+  "checked_at": "2026-11-06T23:25:19.355868+00:00",
+  "checks": [
+    {
+      "command": [
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "exit_code": 0,
+      "output": "....................                                                     [100%]\n20 passed in 5.00s",
+      "errors": ""
+    },
+    {
+      "command": [
+        "-m",
+        "ruff",
+        "check",
+        "."
+      ],
+      "exit_code": 0,
+      "output": "All checks passed!",
+      "errors": ""
+    },
+    {
+      "command": [
+        "-m",
+        "compileall",
+        "-q",
+        "src",
+        "app.py"
+      ],
+      "exit_code": 0,
+      "output": "",
+      "errors": ""
+    }
+  ],
+  "offline_smoke": "installed package: full synthetic demo passed",
+  "streamlit_apptest": "synthetic forecast with three outputs and evidence; real-data history and missing-schedule states passed",
+  "optional_lora_training": "not run",
+  "optional_llm_inference": "not run",
+  "packaging": "Final source built as a wheel and installed successfully; tests run against installed package"
+}

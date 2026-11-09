@@ -1,0 +1,38 @@
+[
+  {
+    "season": "2021-22",
+    "status": "success",
+    "player_rows": 26039,
+    "team_rows": 2460
+  },
+  {
+    "season": "2022-23",
+    "status": "success",
+    "player_rows": 25894,
+    "team_rows": 2460
+  },
+  {
+    "season": "2023-24",
+    "status": "success",
+    "player_rows": 26401,
+    "team_rows": 2460
+  },
+  {
+    "season": "2024-25",
+    "status": "success",
+    "player_rows": 26306,
+    "team_rows": 2460
+  },
+  {
+    "season": "2025-26",
+    "status": "success",
+    "player_rows": 26651,
+    "team_rows": 2460
+  },
+  {
+    "season": "2026-27",
+    "status": "success",
+    "player_rows": 2781,
+    "team_rows": 246
+  }
+]

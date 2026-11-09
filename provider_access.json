@@ -1,0 +1,12 @@
+{
+  "attempted_at": "2026-11-06T22:59:42.767221+00:00",
+  "player_logs_2025_26": {
+    "status": "success",
+    "rows": 26651
+  },
+  "schedule": {
+    "status": "blocked",
+    "error": "403 Client Error: Forbidden for url: https://cdn.nba.com/static/json/staticData/scheduleLeagueV2_1.json",
+    "exception": "HTTPError"
+  }
+}
